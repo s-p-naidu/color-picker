@@ -57,6 +57,7 @@
  
 .tooltiptext { 
     visibility:hidden;
+    background-color: antiquewhite;
     font-size:13px;
     font-style:bold 1px;
     border:0.2px solid;
