@@ -3,9 +3,20 @@ function changeColor(c,t){
     else if(t==0)text.style.backgroundColor=c;
 }
 let text=document.getElementById('text');
-
-
-
+var tooltip=document.getElementById('tooltiptextid');
+text.addEventListener('keydown',function(){
+    tooltip.style.visibility='hidden';
+});
+text.addEventListener('mouseenter',function(){
+   
+    tooltip.style.visibility='visible';
+    //not giving output no error also
+    //var tooltip=document.getElementsByClassName('tooltiptext');
+    //tooltip[0].style.visibility='visible';
+})
+text.addEventListener('mouseleave',function(){
+    tooltip.style.visibility='hidden';
+})
 
 
 

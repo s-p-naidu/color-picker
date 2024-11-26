@@ -52,3 +52,19 @@
     color:azure;
     border-radius:10px;
 }
+
+/* for text box hover to pop tooltip or hover text*/
+ 
+.tooltiptext { 
+    visibility:hidden;
+    font-size:13px;
+    font-style:bold 1px;
+    border:0.2px solid;
+    padding:4px; 
+    position: absolute; 
+    margin-top:2px;
+    margin-left:20px;
+    
+    } 
+
+    
