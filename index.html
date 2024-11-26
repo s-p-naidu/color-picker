@@ -11,7 +11,7 @@
     <div id="head">
         <div>
             <span class="tooltiptext" id="tooltiptextid">write something here</span>
-            <h2 id="text" contenteditable="true"></h2>
+            <h2 id="text" contenteditable="true" style="cursor:pointer"></h2>
         </div>
         <div id="col">
             <div id="tcolor">
@@ -38,7 +38,11 @@
             </div>
         </div>
     </div>
-    <button id="down" onclick="downloadImage()">download</button>
+
+    <center>
+        <button id="down" onclick="downloadImage()">download</button>
+    </center>
+    
     
     <!-- including html2convas library-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
