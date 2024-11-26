@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color picker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 style="text-align:center">Color Picker</h1>
+    <div id="head">
+        <div>
+            <h2 id="text" contenteditable="true"></h2>
+        </div>
+        <div id="col">
+            <div id="tcolor">
+                <h3>pick the text color</h3>
+                <button class="btn" id="red" onclick="changeColor('red',1)"></button>
+                <button class="btn" id="green" onclick="changeColor('green',1)"></button>
+                <button class="btn" id="blue" onclick="changeColor('blue',1)"></button>
+                <button class="btn" id="yellow" onclick="changeColor('yellow',1)"></button>
+                <button class="btn" id="violet" onclick="changeColor('violet',1)"></button>
+                <button class="btn" id="brown" onclick="changeColor('brown',1)"></button>
+                <button class="btn" id="white" onclick="changeColor('white',1)"></button>
+                <button class="btn" id="black" onclick="changeColor('black',1)"></button>
+            </div>
+            <div id="bcolor">
+                <h3>pick the background color</h3>
+                <button class="btn" id="red" onclick="changeColor('red',0)"></button>
+                <button class="btn" id="green" onclick="changeColor('green',0)"></button>
+                <button class="btn" id="blue" onclick="changeColor('blue',0)"></button>
+                <button class="btn" id="yellow" onclick="changeColor('yellow',0)"></button>
+                <button class="btn" id="violet" onclick="changeColor('violet',0)"></button>
+                <button class="btn" id="brown" onclick="changeColor('brown',0)"></button>
+                <button class="btn" id="white" onclick="changeColor('white',0)"></button>
+                <button class="btn" id="black" onclick="changeColor('black',0)"></button>
+            </div>
+        </div>
+    </div>
+    <button id="down" onclick="downloadImage()">download</button>
+    
+    <!-- including html2convas library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
